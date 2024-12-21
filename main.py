@@ -20,7 +20,7 @@ def shortlistapplication(application,reqage,reqexperience,reqskills):
 
 
 reqexperience = int(input("Enter the minimum years of experience required: "))
-reqage = int(input("Enter the maximum age required : "))
+reqage = int(input("Enter the minimum age required : "))
 reqskills = input("Enter the required skills (comma-separated): ").split(',')
 reqskills = set(skill.strip() for skill in reqskills)  
 
